@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="PointLight"
-	ProjectGUID="{B39FEF05-3764-4837-B336-26B69CAC011B}"
+	ProjectGUID="{E8D3B183-063E-4B91-8DFD-877960EE00AD}"
 	RootNamespace="PointLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,14 +177,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\DirectionalLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\ForwardLightCommon.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
@@ -197,10 +189,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\PointLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\resource.h"
 				>
 			</File>
@@ -210,6 +198,22 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\DirectionalLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\ForwardLightCommon.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 		</Filter>

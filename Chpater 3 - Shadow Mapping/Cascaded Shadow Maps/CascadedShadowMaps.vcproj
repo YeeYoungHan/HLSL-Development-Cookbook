@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="CascadedShadowMaps"
-	ProjectGUID="{832AB10F-56FA-49EB-9EED-44C27108CB53}"
+	ProjectGUID="{EA9CF584-AECC-419B-BB09-106A99FDAE1F}"
 	RootNamespace="CascadedShadowMaps"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,10 +177,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\CapsuleLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\CascadedMatrixSet.cpp"
 				>
 			</File>
@@ -190,6 +186,42 @@
 			</File>
 			<File
 				RelativePath=".\CascadedShadowMaps.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\CapsuleLight.hlsl"
 				>
 			</File>
 			<File
@@ -209,39 +241,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBuffer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
 				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 			<File
-				RelativePath=".\LightManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
 				RelativePath=".\PointLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\resource.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.h"
 				>
 			</File>
 			<File

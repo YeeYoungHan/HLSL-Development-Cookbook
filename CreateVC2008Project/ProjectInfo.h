@@ -36,6 +36,7 @@ public:
 	std::string m_strSolutionGUID;
 	std::string m_strProjectGUID;
 	STRING_LIST	m_clsFileList;
+	STRING_LIST	m_clsHLSLFileList;
 };
 
 #endif

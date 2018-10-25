@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="DirectionalLight"
-	ProjectGUID="{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}"
+	ProjectGUID="{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}"
 	RootNamespace="DirectionalLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,19 +177,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\common.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DeferredShading.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\DirectionalLight.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\DirLight.hlsl"
 				>
 			</File>
 			<File
@@ -198,10 +186,6 @@
 			</File>
 			<File
 				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
-				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 			<File
@@ -222,6 +206,26 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\common.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DeferredShading.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DirLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 		</Filter>

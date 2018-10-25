@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="PointLightPCFShadows"
-	ProjectGUID="{1096A632-D490-435A-8959-9EB5680128C3}"
+	ProjectGUID="{AB4EA3B2-6E63-4764-8D70-021130E8CAD8}"
 	RootNamespace="PointLightPCFShadows"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,22 +177,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\CapsuleLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\common.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DeferredShading.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DirLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\GBuffer.cpp"
 				>
 			</File>
@@ -201,19 +185,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBufferVis.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File
@@ -230,6 +206,34 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\CapsuleLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\common.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DeferredShading.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DirLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\GBufferVis.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File

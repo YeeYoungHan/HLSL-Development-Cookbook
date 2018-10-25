@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="MultipleLightsSinglePass"
-	ProjectGUID="{71AA9CE8-BC8C-4C62-937F-4B0C9A2EC67A}"
+	ProjectGUID="{33066A77-B5D7-466E-9EFB-C806DED023B5}"
 	RootNamespace="MultipleLightsSinglePass"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,18 +177,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\DirectionalLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\ForwardLightCommon.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\FourLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
@@ -210,6 +198,22 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\DirectionalLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\ForwardLightCommon.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\FourLight.hlsl"
 				>
 			</File>
 		</Filter>

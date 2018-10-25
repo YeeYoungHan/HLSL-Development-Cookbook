@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{9BAAC8F9-1EA0-4028-9C6F-FF9BABE2CE6A}") = "Adaptation", "Adaptation.vcproj", "{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}"
+Project("{C9F97A58-7D10-44CB-9FA5-1EFBE20CCA90}") = "Adaptation", "Adaptation.vcproj", "{0D72273E-42E8-44CB-B9C6-F4AD18A39508}"
 	ProjectSection(ProjectDependencies) = postProject
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA} = {85344B7F-5AA0-4E12-A065-D1333D11F6CA}
 		{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB} = {61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}
 	EndProjectSection
 EndProject
-Project("{9BAAC8F9-1EA0-4028-9C6F-FF9BABE2CE6A}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
+Project("{C9F97A58-7D10-44CB-9FA5-1EFBE20CCA90}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
 EndProject
-Project("{9BAAC8F9-1EA0-4028-9C6F-FF9BABE2CE6A}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
+Project("{C9F97A58-7D10-44CB-9FA5-1EFBE20CCA90}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Debug|Win32.ActiveCfg = Debug|Win32
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Debug|Win32.Build.0 = Debug|Win32
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Debug|x64.ActiveCfg = Debug|Win32
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Release|Win32.ActiveCfg = Release|Win32
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Release|Win32.Build.0 = Release|Win32
-		{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}.Release|x64.ActiveCfg = Release|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Debug|Win32.Build.0 = Debug|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Debug|x64.ActiveCfg = Debug|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Release|Win32.ActiveCfg = Release|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Release|Win32.Build.0 = Release|Win32
+		{0D72273E-42E8-44CB-B9C6-F4AD18A39508}.Release|x64.ActiveCfg = Release|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.Build.0 = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|x64.ActiveCfg = Debug|Win32

@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="SpotLight"
-	ProjectGUID="{EE9D702A-9B3D-489D-B369-6BF6706CC672}"
+	ProjectGUID="{445D41FC-F34E-4313-9C16-8D9B17881961}"
 	RootNamespace="SpotLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,23 +177,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\DirectionalLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\ForwardLightCommon.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File
@@ -210,6 +198,22 @@
 			</File>
 			<File
 				RelativePath=".\SpotLight.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\DirectionalLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\ForwardLightCommon.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File

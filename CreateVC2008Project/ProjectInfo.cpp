@@ -103,7 +103,11 @@ bool CProjectInfo::SetFolder( const char * pszFolder )
 	{
 		if( strcmp( wfd.cFileName, "." ) && strcmp( wfd.cFileName, ".." ) )
 		{
-			if( strstr( wfd.cFileName, ".h" ) || strstr( wfd.cFileName, ".cpp" ) )
+			if( strstr( wfd.cFileName, ".hlsl" ) )
+			{
+				m_clsHLSLFileList.push_back( wfd.cFileName );
+			}
+			else if( strstr( wfd.cFileName, ".h" ) || strstr( wfd.cFileName, ".cpp" ) )
 			{
 				m_clsFileList.push_back( wfd.cFileName );
 			}

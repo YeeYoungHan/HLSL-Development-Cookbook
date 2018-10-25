@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="SpotLight"
-	ProjectGUID="{EADB7E94-4A6E-4DC2-9A61-1B11CBDFD162}"
+	ProjectGUID="{611E73CF-B588-4D8F-8F46-5CD3C445728C}"
 	RootNamespace="SpotLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,18 +177,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\common.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DeferredShading.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DirLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\GBuffer.cpp"
 				>
 			</File>
@@ -197,19 +185,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBufferVis.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File
@@ -226,6 +206,30 @@
 			</File>
 			<File
 				RelativePath=".\SpotLight.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\common.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DeferredShading.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DirLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\GBufferVis.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File

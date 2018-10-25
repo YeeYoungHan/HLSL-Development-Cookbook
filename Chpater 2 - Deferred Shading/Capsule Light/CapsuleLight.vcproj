@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="CapsuleLight"
-	ProjectGUID="{8096B8B0-93BE-4BB1-82DD-94B26FB92ABE}"
+	ProjectGUID="{96233D88-331D-4813-B38E-78406DB6F12C}"
 	RootNamespace="CapsuleLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -181,6 +181,38 @@
 				>
 			</File>
 			<File
+				RelativePath=".\GBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
 				RelativePath=".\CapsuleLight.hlsl"
 				>
 			</File>
@@ -197,39 +229,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBuffer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
 				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 			<File
-				RelativePath=".\LightManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
 				RelativePath=".\PointLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\resource.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.h"
 				>
 			</File>
 			<File

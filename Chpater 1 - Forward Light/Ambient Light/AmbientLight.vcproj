@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="AmbientLight"
-	ProjectGUID="{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}"
+	ProjectGUID="{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}"
 	RootNamespace="AmbientLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -181,10 +181,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\ForwardLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
@@ -202,6 +198,14 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\ForwardLight.hlsl"
 				>
 			</File>
 		</Filter>

@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="Adaptation"
-	ProjectGUID="{3D9C3173-BAAC-4E5C-B060-01C271FE6FD0}"
+	ProjectGUID="{0D72273E-42E8-44CB-B9C6-F4AD18A39508}"
 	RootNamespace="Adaptation"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -181,15 +181,55 @@
 				>
 			</File>
 			<File
-				RelativePath=".\CapsuleLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\CascadedMatrixSet.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\CascadedMatrixSet.h"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PostFX.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PostFX.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\CapsuleLight.hlsl"
 				>
 			</File>
 			<File
@@ -209,23 +249,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBuffer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
 				RelativePath=".\GBufferVis.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.h"
 				>
 			</File>
 			<File
@@ -237,27 +261,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\PostFX.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\PostFX.h"
-				>
-			</File>
-			<File
 				RelativePath=".\PostFX.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\resource.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.h"
 				>
 			</File>
 			<File

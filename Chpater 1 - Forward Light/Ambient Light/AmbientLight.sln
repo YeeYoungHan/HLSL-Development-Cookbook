@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{A08B378E-4898-4F5A-9651-0490F857CADF}") = "AmbientLight", "AmbientLight.vcproj", "{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}"
+Project("{D0F5D31D-ADA9-424D-B2C1-16C202A10D96}") = "AmbientLight", "AmbientLight.vcproj", "{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA} = {85344B7F-5AA0-4E12-A065-D1333D11F6CA}
 		{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB} = {61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}
 	EndProjectSection
 EndProject
-Project("{A08B378E-4898-4F5A-9651-0490F857CADF}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
+Project("{D0F5D31D-ADA9-424D-B2C1-16C202A10D96}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
 EndProject
-Project("{A08B378E-4898-4F5A-9651-0490F857CADF}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
+Project("{D0F5D31D-ADA9-424D-B2C1-16C202A10D96}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Debug|Win32.Build.0 = Debug|Win32
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Debug|x64.ActiveCfg = Debug|Win32
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Release|Win32.ActiveCfg = Release|Win32
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Release|Win32.Build.0 = Release|Win32
-		{83D29341-BCAD-4FF0-A1FF-044BA941CA1F}.Release|x64.ActiveCfg = Release|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Debug|Win32.Build.0 = Debug|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Debug|x64.ActiveCfg = Debug|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Release|Win32.ActiveCfg = Release|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Release|Win32.Build.0 = Release|Win32
+		{727A5AAC-9BED-41A4-8A7E-8EA2DDAD8BF1}.Release|x64.ActiveCfg = Release|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.Build.0 = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|x64.ActiveCfg = Debug|Win32

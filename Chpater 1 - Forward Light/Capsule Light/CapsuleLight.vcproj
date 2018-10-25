@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="CapsuleLight"
-	ProjectGUID="{D73AFA39-8214-48D2-9AF5-3014602D2411}"
+	ProjectGUID="{9559046E-7514-4FC9-AFA4-DE66D8E3BC58}"
 	RootNamespace="CapsuleLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -181,27 +181,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\CapsuleLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\DirectionalLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\ForwardLightCommon.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File
@@ -214,6 +198,26 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\CapsuleLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\DirectionalLight.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\ForwardLightCommon.hlsl"
+				>
+			</File>
+			<File
+				RelativePath=".\PointLight.hlsl"
 				>
 			</File>
 			<File

@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="SpotLightPCFShadows"
-	ProjectGUID="{81356815-2A50-4722-8FBC-A6BEE68A52A3}"
+	ProjectGUID="{690F7B7A-8A07-4286-9567-8BD938871EB2}"
 	RootNamespace="SpotLightPCFShadows"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,6 +177,42 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\GBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SpotLightPCFShadows.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
 				RelativePath=".\CapsuleLight.hlsl"
 				>
 			</File>
@@ -193,39 +229,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBuffer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
 				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 			<File
-				RelativePath=".\LightManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
 				RelativePath=".\PointLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\resource.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.h"
 				>
 			</File>
 			<File
@@ -234,10 +242,6 @@
 			</File>
 			<File
 				RelativePath=".\SpotLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\SpotLightPCFShadows.cpp"
 				>
 			</File>
 		</Filter>

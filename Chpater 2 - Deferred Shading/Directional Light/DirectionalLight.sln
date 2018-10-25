@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{348ED9E9-54BF-44C2-8092-1B2875C0A0A7}") = "DirectionalLight", "DirectionalLight.vcproj", "{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}"
+Project("{3EE21EE0-6755-4937-9A01-0CE0BC4C4081}") = "DirectionalLight", "DirectionalLight.vcproj", "{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA} = {85344B7F-5AA0-4E12-A065-D1333D11F6CA}
 		{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB} = {61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}
 	EndProjectSection
 EndProject
-Project("{348ED9E9-54BF-44C2-8092-1B2875C0A0A7}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
+Project("{3EE21EE0-6755-4937-9A01-0CE0BC4C4081}") = "DXUT", "..\..\DXUT11\Core\DXUT_2008.vcproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
 EndProject
-Project("{348ED9E9-54BF-44C2-8092-1B2875C0A0A7}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
+Project("{3EE21EE0-6755-4937-9A01-0CE0BC4C4081}") = "DXUTOpt", "..\..\DXUT11\Optional\DXUTOpt_2008.vcproj", "{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Debug|Win32.Build.0 = Debug|Win32
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Debug|x64.ActiveCfg = Debug|Win32
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Release|Win32.ActiveCfg = Release|Win32
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Release|Win32.Build.0 = Release|Win32
-		{2AE74603-3A8C-4065-AEC4-E7CEA27DC570}.Release|x64.ActiveCfg = Release|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Debug|Win32.Build.0 = Debug|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Debug|x64.ActiveCfg = Debug|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Release|Win32.ActiveCfg = Release|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Release|Win32.Build.0 = Release|Win32
+		{69DBFC66-77E4-4ECF-A99B-1DB6BF49F8C8}.Release|x64.ActiveCfg = Release|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.ActiveCfg = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|Win32.Build.0 = Debug|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Debug|x64.ActiveCfg = Debug|Win32

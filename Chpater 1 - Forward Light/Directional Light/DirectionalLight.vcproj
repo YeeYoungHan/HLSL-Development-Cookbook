@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="DirectionalLight"
-	ProjectGUID="{8AC3405E-3E30-4189-901E-72D57D6CA503}"
+	ProjectGUID="{AF39158D-D8FE-49C8-A935-C2A19084162A}"
 	RootNamespace="DirectionalLight"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -181,10 +181,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\ForwardLight.hlsl"
-				>
-			</File>
-			<File
 				RelativePath=".\LightManager.cpp"
 				>
 			</File>
@@ -202,6 +198,14 @@
 			</File>
 			<File
 				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
+				RelativePath=".\ForwardLight.hlsl"
 				>
 			</File>
 		</Filter>

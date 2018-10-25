@@ -222,6 +222,21 @@ bool CreateProject( CProjectInfo & clsPI )
 	}
 
 	fprintf( fd, "		</Filter>\r\n" );
+
+	fprintf( fd, "		<Filter\r\n" );
+	fprintf( fd, "			Name=\"HLSL\"\r\n" );
+	fprintf( fd, "			>\r\n" );
+
+	for( itSL = clsPI.m_clsHLSLFileList.begin(); itSL != clsPI.m_clsHLSLFileList.end(); ++itSL )
+	{
+		fprintf( fd, "			<File\r\n" );
+		fprintf( fd, "				RelativePath=\".\\%s\"\r\n", itSL->c_str() );
+		fprintf( fd, "				>\r\n" );
+		fprintf( fd, "			</File>\r\n" );
+	}
+
+	fprintf( fd, "		</Filter>\r\n" );
+
 	fprintf( fd, "	</Files>\r\n" );
 	fprintf( fd, "	<Globals>\r\n" );
 	fprintf( fd, "	</Globals>\r\n" );

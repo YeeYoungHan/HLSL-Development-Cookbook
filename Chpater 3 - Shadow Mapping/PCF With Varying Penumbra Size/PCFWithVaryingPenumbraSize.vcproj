@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="PCFWithVaryingPenumbraSize"
-	ProjectGUID="{AD6519F9-A4A6-43BB-93A9-DF0E0647C2E9}"
+	ProjectGUID="{7AEE95C2-DC65-4B16-8205-04545DA39276}"
 	RootNamespace="PCFWithVaryingPenumbraSize"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
@@ -177,6 +177,42 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\GBuffer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\GBuffer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\LightManager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PCFWithVaryingPenumbraSize.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\SceneManager.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="HLSL"
+			>
+			<File
 				RelativePath=".\CapsuleLight.hlsl"
 				>
 			</File>
@@ -193,43 +229,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\GBuffer.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\GBuffer.h"
-				>
-			</File>
-			<File
 				RelativePath=".\GBufferVis.hlsl"
 				>
 			</File>
 			<File
-				RelativePath=".\LightManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\LightManager.h"
-				>
-			</File>
-			<File
-				RelativePath=".\PCFWithVaryingPenumbraSize.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\PointLight.hlsl"
-				>
-			</File>
-			<File
-				RelativePath=".\resource.h"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\SceneManager.h"
 				>
 			</File>
 			<File
