@@ -3524,6 +3524,8 @@ HRESULT DXUTCreate3DEnvironment11( ID3D11Device* pd3d11DeviceFromApp )
 
         if( SUCCEEDED( hr ) )
         {
+						/* QQQ : 아래의 함수 호출시	"hr=0x887a002d 응용 프로그램이 누락되었거나 일치하지 않는 SDK 구성 요소에 종속된 작업을 요청했습니다." 오류가 리턴되어서 주석 처리하고
+										 기본 방식으로 수정함.
 
             hr = DXUT_Dynamic_D3D11CreateDevice( pAdapter,
                                                  ddt,
@@ -3531,6 +3533,19 @@ HRESULT DXUTCreate3DEnvironment11( ID3D11Device* pd3d11DeviceFromApp )
                                                  pNewDeviceSettings->d3d11.CreateFlags,
                                                  &pNewDeviceSettings->d3d11.DeviceFeatureLevel,
                                                  1,
+                                                 D3D11_SDK_VERSION,
+                                                 &pd3d11Device,
+                                                 &FeatureLevel,
+                                                 &pd3dImmediateContext
+                                                 );
+					  */
+
+						hr = DXUT_Dynamic_D3D11CreateDevice( NULL,
+                                                 D3D_DRIVER_TYPE_HARDWARE,
+                                                 ( HMODULE )0,
+                                                 0,
+                                                 0,
+                                                 0,
                                                  D3D11_SDK_VERSION,
                                                  &pd3d11Device,
                                                  &FeatureLevel,
